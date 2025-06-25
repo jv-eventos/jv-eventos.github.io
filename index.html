@@ -39,6 +39,11 @@
       animation: fadeInDown 2s ease-in-out;
     }
 
+    .contenido-header {
+      margin-bottom: auto;
+      transform: translateY(200px); /* Subilo un poco más si querés */
+    }
+
     @keyframes fadeInDown {
       0% {
         opacity: 0;
@@ -135,8 +140,10 @@
 <body>
 
   <header>
-    <h1>Creamos momentos inolvidables, vos solo disfrutá.</h1>
-    <a href="https://Wa.me/+5493624248458" class="btn-contacto">Contacto rápido</a>
+    <div class="contenido-header">
+      <h1>Creamos momentos inolvidables, vos solo disfrutá.</h1><br><br>
+      <a href="https://Wa.me/+5493624248458" class="btn-contacto">Contacto rápido</a>
+    </div>
   </header>
 
   <section class="container py-5" id="quienes-somos">
